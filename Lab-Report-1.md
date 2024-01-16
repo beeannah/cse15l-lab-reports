@@ -43,5 +43,21 @@
 * The output is an error because there are no files or folders in "Hello.java". The ls command is used to access and list  the current files and folders in the given path.
 
   ## command 3. cat
+//insert image
 1. No argument
-* 
+* When the command was ran, the working directory is "/home"
+* Because there were no arguments, the command read from the terminal, resulting in a blank line as the output. By typing in the blank space, the following line outputs the entered text.
+* This is not an error, by running cat without any arguments, it begins to concatenate text that is in the terminal. There is no error message displayed as well.
+
+2. *Directory* as argument
+//insert image
+* When the command was ran, the working directory is "home/lecture1/messages"
+* The output read "cat:  lecture1: No such file or directory" for both lines. The command cat only displays contents of files and do not work for directories such as lecture1.
+* The output is an error. Cat is used to print the contents of files, not directories. Because lecture1 was used as the argument, an error was outputted as cat does not concatenate directories. 
+
+3. *File* as argument
+//insert image
+* When the command was ran, the working directory is "/home/lecture1/messages"
+* The output is "Hello World!" followed by a line that prints "¡Hola Mundo!". The command concatenated and printed the contents of en-us.txt and es-mx.txt.
+* The output is not an error.
+
