@@ -20,11 +20,28 @@
 
 3. *File* as argument
 //insert image
-* When the command was ran, the working directoryt is still "/home/lecture1"
+* When the command was ran, the working directory is still "/home/lecture1"
 * After running the command, the output was "bash:  cd:  Hello.class: Not a directory". Hello.class is a file and not a directory, therefore the command was unable to switch the current working directory to Hello.class. 
 * The output is an error. The cd command only takes in directories as an argument and because Hello.class is a file, the output printed out an error messages stating that Hello.class is not a directory. 
 
 ## command 2. ls
 1. No argument
 //insert image
+* When the command was ran, the working directory is "/home"
+* The command outputted "lecture1" after the command was ran with no argument. The working directory is "/home", so by running the command the output listed the current files and folders in home.
+* The output is not an error.
+
+2. *Directory* as argument
+//insert image
+* When the command was ran, the working directory is "/home"
+* After the command was ran, the output was ""Hello.class  Hello.java  **messages**  README". The command listed the current files and folders in the given path, lecture1. 
+* The output is not an error
+
+// **CHECK IF CORRECT** 3. *File* as argument
+* When the command was ran, the working directory is "/home"
+* The output is "ls:  cannot acces 'Hello.java': No such file or directory". There are no files or folders in "Hello.java", prompting the output to print out an error message.
+* The output is an error because there are no files or folders in "Hello.java". The ls command is used to access and list  the current files and folders in the given path.
+
+  ## command 3. cat
+1. No argument
 * 
