@@ -3,7 +3,6 @@
 ## January 15, 2024
 ## CSE 15L
 
-// each command: cd, ls, cat 
 
 ## command 1. cd
 1. No argument
