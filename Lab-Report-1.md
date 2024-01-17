@@ -7,7 +7,8 @@
 
 ## command 1. cd
 1. No argument
-![Image](cd no argument.png)
+![image](https://github.com/beeannah/cse15l-lab-reports/assets/156740070/67cfd5c7-a4f0-4e34-b1a4-9e67240d7914)
+
 * When the command was ran, the working directory is "/home".
 * The command was ran without any arguments, resulting in an output of nothing. The working directory is still "/home" since there was no argument that the current working directory would switch to.  
 * Because the output printed nothing, this means that it finished with no errors.
