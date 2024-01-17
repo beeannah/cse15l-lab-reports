@@ -16,7 +16,7 @@
    
 ![image](https://github.com/beeannah/cse15l-lab-reports/blob/main/cd%20directory.png)
 
-* When the command was ran, the working directory is now "/home/lecture1"
+* When the command was ran, the working directory is "/home"
 * In this case, lecture1 is the given path that is being switched to. After the command was ran, there was no output, however there was now a "/lecture1" next to the user which signified that the current working directory is now in lecture1.
 * The output is not an error.
 
@@ -45,7 +45,7 @@
 * After the command was ran, the output was "Hello.class  Hello.java  **messages**  README". The command listed the current files and folders in the given path, lecture1. 
 * The output is not an error
 
-3. *File* as argument ((FIX))
+3. *File* as argument
 
 ![image](https://github.com/beeannah/cse15l-lab-reports/blob/main/updated%20ls%20directory.png)
 
