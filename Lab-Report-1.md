@@ -45,13 +45,13 @@
 * After the command was ran, the output was "Hello.class  Hello.java  **messages**  README". The command listed the current files and folders in the given path, lecture1. 
 * The output is not an error
 
-// **CHECK IF CORRECT** 3. *File* as argument ((FIX))
+3. *File* as argument ((FIX))
 
-![image](https://github.com/beeannah/cse15l-lab-reports/blob/main/ls%20file.png)
+![image](https://github.com/beeannah/cse15l-lab-reports/blob/main/updated%20ls%20directory.png)
 
-* When the command was ran, the working directory is "/home"
-* The output is "ls:  cannot acces 'Hello.java': No such file or directory". There are no files or folders in "Hello.java", prompting the output to print out an error message.
-* The output is an error because there are no files or folders in "Hello.java". The ls command is used to access and list  the current files and folders in the given path.
+* When the command was ran, the working directory is "/home/lecture1"
+* The output is "Hello.java". The command listed the files and folders in the given path, which is Hello.java
+* The output is not an error.
 
   ## command 3. cat
 1. No argument
@@ -64,11 +64,11 @@
 
 2. *Directory* as argument
    
-![image](https://github.com/beeannah/cse15l-lab-reports/blob/main/cat%20directory.png)
+![image](https://github.com/beeannah/cse15l-lab-reports/blob/main/upadted%20cat%20directory.png)
 
 * When the command was ran, the working directory is "/home"
-* The output prints out "cat: lecture1: Is a directory" for both lines. _________
-* _________
+* The output prints out "cat: lecture1: Is a directory" for both lines. Because lecture1 is a directory, it cannot be concatenated. 
+* This is an error as the cat command is only used with file contents. Lecture1 is not a file, thus the output prints an error messages stating that lecture1 is a directory. 
 
 3. *File* as argument
 
