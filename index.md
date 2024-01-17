@@ -4,7 +4,7 @@
 ## CSE 15L
 
 
-## command 1. cd
+## command 1. `cd`
 1. No argument
 ![image](https://github.com/beeannah/cse15l-lab-reports/assets/156740070/67cfd5c7-a4f0-4e34-b1a4-9e67240d7914)
 
@@ -27,9 +27,9 @@
 
 * When the command was ran, the working directory is still "/home/lecture1"
 * After running the command, the output was "bash:  cd:  Hello.class: Not a directory". Hello.class is a file and not a directory, therefore the command was unable to switch the current working directory to Hello.class. 
-* The output is an error. The cd command only takes in directories as an argument and because Hello.class is a file, the output printed out an error messages stating that Hello.class is not a directory. 
+* The output is an error. The `cd` command only takes in directories as an argument and because Hello.class is a file, the output printed out an error messages stating that Hello.class is not a directory. 
 
-## command 2. ls
+## command 2. `ls`
 1. No argument
 
 ![image](https://github.com/beeannah/cse15l-lab-reports/assets/156740070/4e76f4d4-b02a-4680-98dc-9d5e54ca3ef1)
@@ -54,14 +54,14 @@
 * The output is "Hello.java". The command listed the files and folders in the given path, which is Hello.java
 * The output is not an error.
 
-  ## command 3. cat
+  ## command 3. `cat`
 1. No argument
 
 ![image](https://github.com/beeannah/cse15l-lab-reports/assets/156740070/beb06d34-9ce8-47e0-b18a-b7b7289b6bd3)
 
 * When the command was ran, the working directory is "/home"
 * Because there were no arguments, the command read from the terminal, resulting in a blank line as the output. By typing in the blank space, the following line outputs the entered text.
-* This is not an error, by running cat without any arguments, it begins to concatenate text that is in the terminal. There is no error message displayed as well.
+* This is not an error, by running `cat` without any arguments, it begins to concatenate text that is in the terminal. There is no error message displayed as well.
 
 2. *Directory* as argument
 
@@ -69,7 +69,7 @@
 
 * When the command was ran, the working directory is "/home"
 * The output prints out "cat: lecture1: Is a directory" for both lines. Because lecture1 is a directory, it cannot be concatenated. 
-* This is an error as the cat command is only used with file contents. Lecture1 is not a file, thus the output prints an error messages stating that lecture1 is a directory. 
+* This is an error as the `cat` command is only used with file contents. Lecture1 is not a file, thus the output prints an error messages stating that lecture1 is a directory. 
 
 3. *File* as argument
 
