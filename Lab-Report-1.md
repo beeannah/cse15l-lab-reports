@@ -42,10 +42,10 @@
 ![image](https://github.com/beeannah/cse15l-lab-reports/blob/main/ls%20directory.png)
 
 * When the command was ran, the working directory is "/home"
-* After the command was ran, the output was ""Hello.class  Hello.java  **messages**  README". The command listed the current files and folders in the given path, lecture1. 
+* After the command was ran, the output was "Hello.class  Hello.java  **messages**  README". The command listed the current files and folders in the given path, lecture1. 
 * The output is not an error
 
-// **CHECK IF CORRECT** 3. *File* as argument
+// **CHECK IF CORRECT** 3. *File* as argument ((FIX))
 
 ![image](https://github.com/beeannah/cse15l-lab-reports/blob/main/ls%20file.png)
 
@@ -66,9 +66,9 @@
    
 ![image](https://github.com/beeannah/cse15l-lab-reports/blob/main/cat%20directory.png)
 
-* When the command was ran, the working directory is "home/lecture1/messages"
-* The output read "cat:  lecture1: No such file or directory" for both lines. The command cat only displays contents of files and do not work for directories such as lecture1.
-* The output is an error. Cat is used to print the contents of files, not directories. Because lecture1 was used as the argument, an error was outputted as cat does not concatenate directories. 
+* When the command was ran, the working directory is "/home"
+* The output prints out "cat: lecture1: Is a directory" for both lines. _________
+* _________
 
 3. *File* as argument
 
