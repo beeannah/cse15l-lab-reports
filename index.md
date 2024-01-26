@@ -9,7 +9,7 @@
 ![image](https://github.com/beeannah/cse15l-lab-reports/assets/156740070/67cfd5c7-a4f0-4e34-b1a4-9e67240d7914)
 
 * When the command was ran, the working directory is `/home`.
-* The command was ran without any arguments, resulting in an output of nothing. The working directory is still `/home` since there was no argument that the current working directory would switch to.  
+* The command was ran without any arguments, resulting in an output of nothing. Since there was no argument, the current working directory changes to the 'home' directory. 
 * Because the output printed nothing, this means that it finished with no errors.
 
 2. *Directory* as argument
@@ -43,7 +43,7 @@
 ![image](https://github.com/beeannah/cse15l-lab-reports/assets/156740070/00d36280-6a71-468d-b384-63d834135e20)
 
 * When the command was ran, the working directory is `/home`
-* After the command was ran, the output was `Hello.class  Hello.java  **messages**  README`. The command listed the current files and folders in the given path, `lecture1`. 
+* After the command was ran, the output was `Hello.class  Hello.java  messages  README`. The command listed the current files and folders in the given path, `lecture1`. 
 * The output is not an error
 
 3. *File* as argument
