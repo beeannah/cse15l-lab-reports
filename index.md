@@ -9,7 +9,7 @@
 ![image](https://github.com/beeannah/cse15l-lab-reports/assets/156740070/67cfd5c7-a4f0-4e34-b1a4-9e67240d7914)
 
 * When the command was ran, the working directory is `/home`.
-* The command was ran without any arguments, resulting in an output of nothing. Since there was no argument, the current working directory changes to the 'home' directory. 
+* The command was ran without any arguments, resulting in an output of nothing. Since there was no argument, the current working directory changes to the `home` directory. 
 * Because the output printed nothing, this means that it finished with no errors.
 
 2. *Directory* as argument
@@ -17,7 +17,7 @@
 ![image](https://github.com/beeannah/cse15l-lab-reports/assets/156740070/c737c5a4-e07f-4db6-a703-6e5be09287f3)
 
 * When the command was ran, the working directory is `/home`
-* In this case, lecture1 is the given path that is being switched to. After the command was ran, there was no output, however there was now a `/lecture1` next to the user which signified that the current working directory is now in lecture1.
+* In this case, lecture1 is the given path that is being switched to. After the command was ran, there was no output, however there was now a `/lecture1` next to the user which signified that the current working directory is now in `lecture1`.
 * The output is not an error.
 
 3. *File* as argument
